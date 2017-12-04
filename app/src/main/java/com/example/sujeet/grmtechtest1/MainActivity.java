@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements UserListApi.OnUse
         mUserlistApi = new UserListApi(this);
         recyclerView=(RecyclerView)findViewById(R.id.recyclerview);
         setRecyclerview();
+        //Hello world example in android
     }
 
     private void setRecyclerview() {
